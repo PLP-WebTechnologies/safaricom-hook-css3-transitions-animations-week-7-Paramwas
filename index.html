@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive and Dynamic Web Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Interactive and Dynamic Web Page</h1>
+  </header>
+  
+  <section id="transitions">
+    <h2>CSS Transitions</h2>
+    <button class="hover-btn">Hover Me</button>
+    <input type="text" class="focus-input" placeholder="Focus on me">
+    
+    <!-- New interactive buttons -->
+    <button class="color-btn">Change Color</button>
+    <button class="rotate-btn">Rotate Me!</button>
+    <button class="expand-btn">Expand Me!</button>
+  </section>
+  
+  <section id="animations">
+    <h2>CSS Animations</h2>
+    <div class="animated-banner">Welcome to the page!</div>
+    <div class="spinner"></div>
+  </section>
+
+  <section id="interactivity">
+    <h2>JavaScript Functions</h2>
+    <form id="calculate-area-form">
+      <label for="length">Length:</label>
+      <input type="number" id="length" required>
+      <label for="width">Width:</label>
+      <input type="number" id="width" required>
+      <button type="button" onclick="calculateArea()">Calculate Area</button>
+    </form>
+    <p id="area-result"></p>
+    
+    <button id="toggle-animation">Toggle Modal</button>
+    <div id="modal" class="hidden">Welcome to the toggle window how do you see my skill am quite excited!</div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
